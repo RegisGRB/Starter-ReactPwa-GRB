@@ -5,6 +5,8 @@ import "./styles/App.scss";
 import Starter from "./pages/Starter/starter";
 //components
 import Header from "./components/header/header";
+import TodoPage from "./pages/TodoPage/TodoPage";
+import TrombinoscopePage from "./pages/TrombinoscopePage/TrombinoscopePage";
 
 
 
@@ -22,6 +24,16 @@ function App() {
                 path="/"
                 render={() => <Starter />}
               />
+              <Route
+              exact
+              path="/TodoPage"
+              render={() => <TodoPage />}
+            />
+            <Route
+            exact
+            path="/TrombinoscopePage"
+            render={() => <TrombinoscopePage />}
+          />
             </AnimatePresence>
           </Switch>
         )}

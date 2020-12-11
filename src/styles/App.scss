@@ -1,7 +1,9 @@
 // @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap");
 @import "./varibles.scss";
 @import "./breakpoints.scss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @font-face {
     font-family: police;
     src: url(../assets/font/MonumentExtended-Regular.otf);
@@ -18,8 +20,17 @@ body,html{
     background-color: #171717;
 }
 
-.topPage{
-    padding-top: 128px;
+.Black-theme{
+  background-color: black;
+  color: white;
+}
+
+.White-theme{
+  background-color: white;
+  color: black;
+}
+.Input{
+  padding: 8px;
 }
 .container {
   width: 1560px;

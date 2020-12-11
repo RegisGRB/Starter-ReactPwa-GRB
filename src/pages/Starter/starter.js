@@ -1,12 +1,13 @@
 import React from 'react';
 import "./starter.scss";
-const starter = () => {
+const Starter = props => {
     return (
         <div className="container topPage">
             <div className="row center">
+            {props.children}
             </div>
         </div>
     );
 };
 
-export default starter;
+export default Starter;
