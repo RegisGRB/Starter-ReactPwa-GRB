@@ -1,0 +1,578 @@
+
+// GRID OF ITEM
+.FaceGameGrid {
+    z-index: 9999;
+    width: 80vw;
+    height: 40vh;
+    margin: 5px;
+    margin-top:20px;
+    div {
+      display: inline-block;
+      float: left;
+    }
+  
+    div.placeholder {
+      width: 48px;
+      height: 48px;
+      float: left;
+      border: 1px solid #333;
+      border-radius: 5px;
+    }
+    &.bottom {
+      bottom: 0;
+    }
+    &.top {
+      top: 0;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  // IMAGE DES ITEMS dont look is just ctrl c ctrl v
+  #x1 {
+    background: url(../../assets/img/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x2 {
+    background: url(../../assets/img/2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x3 {
+    background: url(../../assets/img/3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x4 {
+    background: url(../../assets/img/4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x5 {
+    background: url(../../assets/img/5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x6 {
+    background: url(../../assets/img/6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x7 {
+    background: url(../../assets/img/7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x8 {
+    background: url(../../assets/img/8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #x9 {
+    background: url(../../assets/img/9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x10 {
+    background: url(../../assets/img/10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x11 {
+    background: url(../../assets/img/11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x12 {
+    background: url(../../assets/img/12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x13 {
+    background: url(../../assets/img/13.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #x14 {
+    background: url(../../assets/img/14.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x15 {
+    background: url(../../assets/img/15.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x16 {
+    background: url(../../assets/img/16.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x17 {
+    background: url(../../assets/img/17.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x18 {
+    background: url(../../assets/img/18.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x19 {
+    background: url(../../assets/img/19.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x20 {
+    background: url(../../assets/img/20.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x21 {
+    background: url(../../assets/img/21.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x22 {
+    background: url(../../assets/img/22.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x23 {
+    background: url(../../assets/img/23.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x24 {
+    background: url(../../assets/img/24.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x25 {
+    background: url(../../assets/img/25.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x26 {
+    background: url(../../assets/img/26.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x27 {
+    background: url(../../assets/img/27.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x28 {
+    background: url(../../assets/img/28.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x29 {
+    background: url(../../assets/img/29.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #x30 {
+    background: url(../../assets/img/30.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes1 {
+    background: url(../../assets/img/animes1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes2 {
+    background: url(../../assets/img/animes2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes3 {
+    background: url(../../assets/img/animes3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes4 {
+    background: url(../../assets/img/animes4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes5 {
+    background: url(../../assets/img/animes5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes6 {
+    background: url(../../assets/img/animes6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes7 {
+    background: url(../../assets/img/animes7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes8 {
+    background: url(../../assets/img/animes8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #animes9 {
+    background: url(../../assets/img/animes9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes10 {
+    background: url(../../assets/img/animes10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes11 {
+    background: url(../../assets/img/animes11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes12 {
+    background: url(../../assets/img/animes12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes13 {
+    background: url(../../assets/img/animes13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #animes14 {
+    background: url(../../assets/img/animes14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes15 {
+    background: url(../../assets/img/animes15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes16 {
+    background: url(../../assets/img/animes16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes17 {
+    background: url(../../assets/img/animes17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes18 {
+    background: url(../../assets/img/animes18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes19 {
+    background: url(../../assets/img/animes19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes20 {
+    background: url(../../assets/img/animes20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes21 {
+    background: url(../../assets/img/animes21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes22 {
+    background: url(../../assets/img/animes22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes23 {
+    background: url(../../assets/img/animes23.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes24 {
+    background: url(../../assets/img/animes24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes25 {
+    background: url(../../assets/img/animes25.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes26 {
+    background: url(../../assets/img/animes26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes27 {
+    background: url(../../assets/img/animes27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes28 {
+    background: url(../../assets/img/animes28.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes29 {
+    background: url(../../assets/img/animes29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #animes30 {
+    background: url(../../assets/img/movies30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies1 {
+    background: url(../../assets/img/movies1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies2 {
+    background: url(../../assets/img/movies2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies3 {
+    background: url(../../assets/img/movies3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies4 {
+    background: url(../../assets/img/movies4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies5 {
+    background: url(../../assets/img/movies5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies6 {
+    background: url(../../assets/img/movies6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies7 {
+    background: url(../../assets/img/movies7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies8 {
+    background: url(../../assets/img/movies8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #movies9 {
+    background: url(../../assets/img/movies9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies10 {
+    background: url(../../assets/img/movies10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies11 {
+    background: url(../../assets/img/movies11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies12 {
+    background: url(../../assets/img/movies12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies13 {
+    background: url(../../assets/img/movies13.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #movies14 {
+    background: url(../../assets/img/movies14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies15 {
+    background: url(../../assets/img/movies15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies16 {
+    background: url(../../assets/img/movies16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies17 {
+    background: url(../../assets/img/movies17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies18 {
+    background: url(../../assets/img/movies18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies19 {
+    background: url(../../assets/img/movies19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies20 {
+    background: url(../../assets/img/movies20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies21 {
+    background: url(../../assets/img/movies21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies22 {
+    background: url(../../assets/img/movies22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies23 {
+    background: url(../../assets/img/movies23.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies24 {
+    background: url(../../assets/img/movies24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies25 {
+    background: url(../../assets/img/movies25.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies26 {
+    background: url(../../assets/img/movies26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies27 {
+    background: url(../../assets/img/movies27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies28 {
+    background: url(../../assets/img/movies28.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies29 {
+    background: url(../../assets/img/movies29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #movies30 {
+    background: url(../../assets/img/movies30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  

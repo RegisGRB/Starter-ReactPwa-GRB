@@ -1,0 +1,89 @@
+@font-face {
+  font-family: police;
+  src: url(./assets/font/MonumentExtended-Regular.otf);
+}
+
+$breakpoints: (
+  "phone": 425px,
+  "tablet": 768px,
+  "desktop": 1366px,
+  "LGdesktop": 1920px
+) !default;
+
+* {
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  font-family: police;  
+}
+.BIG{
+  font-size: 5em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.testSelector{
+  padding-top:128px;
+}
+body,html{
+  background-color: #171717;
+}
+a {
+  text-decoration: none; /* no underline */
+}
+ul{
+  list-style-type: none;
+}
+.Black-theme{
+background-color: black;
+color: white;
+}
+
+.White-theme{
+background-color: white;
+color: black;
+}
+.Input{
+padding: 8px;
+}
+.container {
+width: 1560px;
+min-width: 1560px;
+margin: 0 auto;
+height: 100%;
+@media(max-width:1560px) {
+  width: 1280px;
+  min-width: 1280px;
+}
+@media(max-width:1366px) {
+  width: 1080px;
+  min-width: 1080px;
+}
+@media(max-width:1080px) {
+  width: 100%;
+  min-width: 100%;
+}
+.row {
+  display: flex;
+  height: 100%;
+  padding: 0 32px;
+  @media(max-width:425px) {
+    padding: 0 16px;
+  }
+}
+.v-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+}
+
+.container-fluid {
+width: 100%;
+height: 100%;
+.row {
+  display: flex;
+  height: 100%;
+}
+}
+
